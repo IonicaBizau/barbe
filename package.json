@@ -1,0 +1,32 @@
+{
+  "name": "barbe",
+  "version": "1.0.0",
+  "description": "Like mustache, but simple, tiny and fast.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "regex-escape": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/barbe.git"
+  },
+  "keywords": [
+    "barbe",
+    "mustache",
+    "template",
+    "data"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/barbe/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/barbe"
+}
