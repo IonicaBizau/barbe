@@ -11,3 +11,9 @@ console.log(Barbe("Hello <world>!", ["<", ">"], {
 console.log(Barbe("Hello ###world##!", ["###", "##"], {
     world: "World"
 }));
+
+console.log(Barbe("Hello ###world##!", ["###", "##"], {
+    world: function () {
+        return "Sun";
+    }
+}));
