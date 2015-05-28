@@ -2,24 +2,45 @@
 Like mustache, but simple, tiny and fast.
 
 ## Installation
-Run the following commands to download and install the application:
 
 ```sh
-$ git clone git@github.com:IonicaBizau/barbe.git barbe
-$ cd barbe
-$ npm install
+$ npm install barbe
+```
+
+## Example
+
+```js
+// Require barbe
+var Barbe = require("../lib");
+
+// Use {curly braces}, which is default
+console.log(Barbe("Hello {world}!", {
+    world: "Mars"
+}));
+
+// Different separators
+console.log(Barbe("Hello <world>!", ["<", ">"], {
+    world: "World"
+}));
+
+// Use a function instead of a string
+console.log(Barbe("Hello ###world##!", ["###", "##"], {
+    world: function () {
+        return "Sun";
+    }
+}));
 ```
 
 ## Documentation
-## `Barbe(text, arr, data)`
+### `Barbe(text, arr, data)`
 Renders the input template including the data.
 
-### Params 
+#### Params
 - **String** `text`: The template text.
 - **Array** `arr`: An array of two elements: the first one being the start snippet (default: `"{"`) and the second one being the end snippet (default: `"}"`).
 - **Object** `data`: The template data.
 
-### Return
+#### Return
 - **String** The rendered template.
 
 
