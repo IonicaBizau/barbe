@@ -13,7 +13,7 @@ $ npm install barbe
 
 ```js
 // Require barbe
-var Barbe = require("../lib");
+var Barbe = require("barbe");
 
 // Use {curly braces}, which is default
 console.log(Barbe("Hello {world}!", {
@@ -45,10 +45,7 @@ Renders the input template including the data.
 #### Return
 - **String** The rendered template.
 
-
-
 ## How to contribute
-
 1. File an issue in the repository, using the bug tracker, describing the
    contribution you'd like to make. This will help us to get you started on the
    right foot.
