@@ -1,3 +1,5 @@
+![](http://i.imgur.com/tcg2ZNt.png)
+
 # barbe
 Like mustache, but simple, tiny and fast.
 
