@@ -31,5 +31,8 @@
   },
   "devDependencies": {
     "mocha": "^2.2.5"
+  },
+  "blah": {
+    "h_img": "http://i.imgur.com/tcg2ZNt.png"
   }
 }
