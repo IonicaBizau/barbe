@@ -65,7 +65,7 @@ console.log(Barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"],
 ### `Barbe(text, arr, data)`
 Renders the input template including the data.
 
-#### Params 
+#### Params
 - **String** `text`: The template text.
 - **Array** `arr`: An array of two elements: the first one being the start snippet (default: `&#34;{&#34;`) and the second one being the end snippet (default: `&#34;}&#34;`).
 - **Object** `data`: The template data.
