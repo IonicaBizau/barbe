@@ -33,4 +33,5 @@ it("should support deep replacing", function (cb) {
           , earth: "Earth"
         }
     }), "Hello Pluto from Earth!");
+    cb();
 });
