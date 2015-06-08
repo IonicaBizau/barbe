@@ -17,3 +17,12 @@ console.log(Barbe("Hello ###world##!", ["###", "##"], {
         return "Sun";
     }
 }));
+
+// Use a function instead of a string
+console.log(Barbe("Hello {{worlds.pluto}}!", ["{{", "}}"], {
+    worlds: {
+        pluto: function () {
+            return "Pluto";
+        }
+    }
+}));
