@@ -15,7 +15,7 @@
 
 ![barbe](http://i.imgur.com/tcg2ZNt.png)
 
-# barbe
+# barbe [![Donate now][donate-now]][paypal-donations]
 
 Like mustache, but simple, tiny and fast.
 
@@ -77,8 +77,12 @@ Renders the input template including the data.
 Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## License
-See the [LICENSE][license] file.
+[KINDLY][license] © [Ionică Bizău][website]–The [LICENSE](/LICENSE) file contains
+a copy of the license.
 
-[license]: /LICENSE
+[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2015
 [contributing]: /CONTRIBUTING.md
+[website]: http://ionicabizau.net
 [docs]: /DOCUMENTATION.md
+[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MG98D7NPFZ3MG
+[donate-now]: http://i.imgur.com/jioicaN.png
