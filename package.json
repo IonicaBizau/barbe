@@ -4,12 +4,9 @@
   "description": "Like mustache, but simple, tiny and fast.",
   "main": "lib/index.js",
   "directories": {
-    "example": "example"
+    "example": "example",
+    "test": "test"
   },
-  "dependencies": {
-    "regex-escape": "^1.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "mocha test"
   },
@@ -28,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/barbe/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/barbe"
+  "homepage": "https://github.com/IonicaBizau/barbe",
+  "dependencies": {
+    "regex-escape": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
