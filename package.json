@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:IonicaBizau/barbe.git"
+    "url": "git@github.com:IonicaBizau/node-barbe.git"
   },
   "keywords": [
     "barbe",
@@ -23,9 +23,9 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "KINDLY",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/barbe/issues"
+    "url": "https://github.com/IonicaBizau/node-barbe/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/barbe",
+  "homepage": "https://github.com/IonicaBizau/node-barbe",
   "dependencies": {
     "regex-escape": "^3.0.0"
   },
