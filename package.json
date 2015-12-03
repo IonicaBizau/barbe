@@ -1,6 +1,6 @@
 {
   "name": "barbe",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Like mustache, but simple, tiny and fast.",
   "main": "lib/index.js",
   "directories": {
@@ -21,7 +21,7 @@
     "data"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "KINDLY",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-barbe/issues"
   },
