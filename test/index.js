@@ -35,3 +35,10 @@ it("should support deep replacing", function (cb) {
     }), "Hello Pluto from Earth!");
     cb();
 });
+
+it("should not throw if null", function (cb) {
+    Assert.equal(barbe("Hello {{world}}!", ["{{", "}}"], {
+        world: null
+    }), "Hello null!");
+    cb();
+});
