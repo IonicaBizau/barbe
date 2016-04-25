@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     "typpy": "^2.3.1"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "tester": "^1.3.1"
   },
   "blah": {
     "h_img": "http://i.imgur.com/tcg2ZNt.png"
