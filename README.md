@@ -1,16 +1,20 @@
+
 [![barbe](http://i.imgur.com/tcg2ZNt.png)](#)
 
 # barbe [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/node-barbe.svg)](https://travis-ci.org/IonicaBizau/node-barbe/) [![Version](https://img.shields.io/npm/v/barbe.svg)](https://www.npmjs.com/package/barbe) [![Downloads](https://img.shields.io/npm/dt/barbe.svg)](https://www.npmjs.com/package/barbe) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Like mustache, but simple, tiny and fast.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save barbe
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Require barbe
@@ -48,7 +52,8 @@ console.log(Barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"],
 // => "Hello Pluto from Earth!"
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `Barbe(text, arr, data)`
 Renders the input template including the data.
@@ -61,23 +66,23 @@ Renders the input template including the data.
 #### Return
 - **String** The rendered template.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`github-old-header`](https://github.com/IonicaBizau/github-old-header)
 
- - [`kindly-license`](https://github.com/IonicaBizau/kindly-license)
-
- - [`match`](https://github.com/IonicaBizau/match.js#readme)
-
- - [`medium-editor-markdown`](https://github.com/IonicaBizau/medium-editor-markdown)
-
- - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)
-
-## License
+ - [`emojer`](https://github.com/IonicaBizau/emojer#readme)—Emojify all the things.
+ - [`err`](https://github.com/IonicaBizau/err#readme)—A tiny library to create custom errors in JavaScript.
+ - [`github-old-header`](https://github.com/IonicaBizau/github-old-header)—Brings the old header links back.
+ - [`kindly-license`](https://github.com/IonicaBizau/kindly-license)—A human readable license for projects created by human-beings.
+ - [`match`](https://github.com/IonicaBizau/match.js#readme)—Simplest way to create match memory games.
+ - [`medium-editor-markdown`](https://github.com/IonicaBizau/medium-editor-markdown)—A Medium Editor extension to add markdown support.
+ - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
