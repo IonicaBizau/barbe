@@ -61,6 +61,6 @@ Thanks! :sweat_smile:
 
 
 
-[1]: https://github.com/IonicaBizau/node-barbe/issues
+[1]: https://github.com/IonicaBizau/barbe/issues
 
 [2]: https://github.com/IonicaBizau/code-style
