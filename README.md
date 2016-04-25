@@ -17,23 +17,22 @@ $ npm i --save barbe
 
 
 ```js
-// Require barbe
-var Barbe = require("barbe");
+const barbe = require("barbe");
 
 // Use {curly braces}, which is default
-console.log(Barbe("Hello {world}!", {
+console.log(barbe("Hello {world}!", {
     world: "Mars"
 }));
 // => "Hello Mars!"
 
 // Different separators
-console.log(Barbe("Hello <world>!", ["<", ">"], {
+console.log(barbe("Hello <world>!", ["<", ">"], {
     world: "World"
 }));
 // => "Hello World!"
 
 // Use a function instead of a string
-console.log(Barbe("Hello ###world##!", ["###", "##"], {
+console.log(barbe("Hello ###world##!", ["###", "##"], {
     world: function () {
         return "Sun";
     }
@@ -41,7 +40,7 @@ console.log(Barbe("Hello ###world##!", ["###", "##"], {
 // => "Hello Sun!"
 
 // Use a function instead of a string
-console.log(Barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"], {
+console.log(barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"], {
     worlds: {
         pluto: function () {
             return "Pluto";
@@ -54,8 +53,7 @@ console.log(Barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"],
 
 ## :memo: Documentation
 
-
-### `Barbe(text, arr, data)`
+### `barbe(text, arr, data)`
 Renders the input template including the data.
 
 #### Params
@@ -82,6 +80,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`match`](https://github.com/IonicaBizau/match.js#readme)—Simplest way to create match memory games.
  - [`medium-editor-markdown`](https://github.com/IonicaBizau/medium-editor-markdown)—A Medium Editor extension to add markdown support.
  - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
+
 ## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]

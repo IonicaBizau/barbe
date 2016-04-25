@@ -1,20 +1,19 @@
-// Require barbe
-var Barbe = require("../lib");
+const barbe = require("../lib");
 
 // Use {curly braces}, which is default
-console.log(Barbe("Hello {world}!", {
+console.log(barbe("Hello {world}!", {
     world: "Mars"
 }));
 // => "Hello Mars!"
 
 // Different separators
-console.log(Barbe("Hello <world>!", ["<", ">"], {
+console.log(barbe("Hello <world>!", ["<", ">"], {
     world: "World"
 }));
 // => "Hello World!"
 
 // Use a function instead of a string
-console.log(Barbe("Hello ###world##!", ["###", "##"], {
+console.log(barbe("Hello ###world##!", ["###", "##"], {
     world: function () {
         return "Sun";
     }
@@ -22,7 +21,7 @@ console.log(Barbe("Hello ###world##!", ["###", "##"], {
 // => "Hello Sun!"
 
 // Use a function instead of a string
-console.log(Barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"], {
+console.log(barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"], {
     worlds: {
         pluto: function () {
             return "Pluto";

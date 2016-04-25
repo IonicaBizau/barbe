@@ -1,11 +1,11 @@
 // Dependencies
-var Barbe = require("../lib")
+var barbe = require("../lib")
   , Assert = require("assert")
   ;
 
 // Default behavior
 it("should support one level strings with default separators", function (cb) {
-    Assert.equal(Barbe("Hello {world}!", {
+    Assert.equal(barbe("Hello {world}!", {
         world: "Mars"
     }), "Hello Mars!");
     cb();
@@ -13,7 +13,7 @@ it("should support one level strings with default separators", function (cb) {
 
 // Custom separators, strings & functions
 it("should support one level strings and functions with custom separators", function (cb) {
-    Assert.equal(Barbe("Hello <world> from <earth>!", ["<", ">"], {
+    Assert.equal(barbe("Hello <world> from <earth>!", ["<", ">"], {
         world: "Mars"
       , earth: function () {
             return "Earth";
@@ -25,7 +25,7 @@ it("should support one level strings and functions with custom separators", func
 
 // Deep replacing
 it("should support deep replacing", function (cb) {
-    Assert.equal(Barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"], {
+    Assert.equal(barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"], {
         worlds: {
             pluto: function () {
                 return "Pluto";
