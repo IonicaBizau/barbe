@@ -53,6 +53,7 @@ console.log(barbe("Hello {{worlds.pluto}} from {{worlds.earth}}!", ["{{", "}}"],
 
 ## :memo: Documentation
 
+
 ### `barbe(text, arr, data)`
 Renders the input template including the data.
 

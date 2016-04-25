@@ -2,7 +2,7 @@
 
 You can see below the API reference of this module.
 
-### `Barbe(text, arr, data)`
+### `barbe(text, arr, data)`
 Renders the input template including the data.
 
 #### Params
