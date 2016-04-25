@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/IonicaBizau/node-barbe",
   "dependencies": {
-    "regex-escape": "^3.0.0"
+    "regex-escape": "^3.0.0",
+    "typpy": "^2.3.1"
   },
   "devDependencies": {
     "mocha": "^2.2.5"
