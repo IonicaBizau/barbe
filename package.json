@@ -1,6 +1,6 @@
 {
   "name": "barbe",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Like mustache, but simple, tiny and fast.",
   "main": "lib/index.js",
   "directories": {
@@ -36,5 +36,16 @@
   },
   "blah": {
     "h_img": "http://i.imgur.com/tcg2ZNt.png"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
