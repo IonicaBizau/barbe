@@ -1,7 +1,9 @@
 
 [![barbe](http://i.imgur.com/tcg2ZNt.png)](#)
 
-# barbe [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/barbe.svg)](https://travis-ci.org/IonicaBizau/barbe/) [![Version](https://img.shields.io/npm/v/barbe.svg)](https://www.npmjs.com/package/barbe) [![Downloads](https://img.shields.io/npm/dt/barbe.svg)](https://www.npmjs.com/package/barbe) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# barbe
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/barbe.svg)](https://travis-ci.org/IonicaBizau/barbe/) [![Version](https://img.shields.io/npm/v/barbe.svg)](https://www.npmjs.com/package/barbe) [![Downloads](https://img.shields.io/npm/dt/barbe.svg)](https://www.npmjs.com/package/barbe) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Like mustache, but simple, tiny and fast.
 
@@ -80,6 +82,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`kindly-license`](https://github.com/IonicaBizau/kindly-license)—A human readable license for projects created by human-beings.
  - [`match`](https://github.com/IonicaBizau/match.js#readme)—Simplest way to create match memory games.
  - [`medium-editor-markdown`](https://github.com/IonicaBizau/medium-editor-markdown)—A Medium Editor extension to add markdown support.
+ - [`ship-release`](https://github.com/IonicaBizau/ship-release#readme)—Publish new versions on GitHub and npm with ease.
  - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
 
 ## :scroll: License
