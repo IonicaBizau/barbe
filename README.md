@@ -72,18 +72,6 @@ Renders the input template including the data.
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`emojer`](https://github.com/IonicaBizau/emojer#readme)—Emojify all the things.
- - [`err`](https://github.com/IonicaBizau/err#readme)—A tiny library to create custom errors in JavaScript.
- - [`github-old-header`](https://github.com/IonicaBizau/github-old-header)—Brings the old header links back.
- - [`kindly-license`](https://github.com/IonicaBizau/kindly-license)—A human readable license for projects created by human-beings.
- - [`match`](https://github.com/IonicaBizau/match.js#readme)—Simplest way to create match memory games.
- - [`medium-editor-markdown`](https://github.com/IonicaBizau/medium-editor-markdown)—A Medium Editor extension to add markdown support.
- - [`ship-release`](https://github.com/IonicaBizau/ship-release#readme)—Publish new versions on GitHub and npm with ease.
- - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
 
 ## :scroll: License
 
