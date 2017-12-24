@@ -1,6 +1,6 @@
 {
   "name": "barbe",
-  "version": "3.0.12",
+  "version": "3.0.13",
   "description": "Like mustache, but simple, tiny and fast.",
   "main": "lib/index.js",
   "directories": {
