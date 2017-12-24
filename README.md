@@ -12,7 +12,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save barbe
+# Using npm
+npm install --save barbe
+
+# Using yarn
+yarn add barbe
 ```
 
 
