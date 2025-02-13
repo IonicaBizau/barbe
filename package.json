@@ -1,6 +1,6 @@
 {
   "name": "barbe",
-  "version": "3.0.16",
+  "version": "3.0.17",
   "description": "Like mustache, but simple, tiny and fast.",
   "main": "lib/index.js",
   "directories": {
@@ -48,6 +48,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
